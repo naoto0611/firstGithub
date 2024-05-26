@@ -1,0 +1,51 @@
+/* reset Margin & Padding */
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red{
+    border: 1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+
+.about-sign-in{
+    display: flex;
+    justify-content: end;
+    block-size: fit-content;
+    align-items: center;
+}
+
+.about,
+.sign-in{
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 20px 10px;
+    display: inline-block;
+    padding: 7px;
+    margin-right: 20px;
+    color: green;
+    text-transform: uppercase;
+    
+}
+
+.about{
+    border: none;
+}
+
+.sign-in{
+    border: 3px solid green;
+    margin-right: 40px;
+}
+
+.banner{
+    height: 500px;
+    background: url("./img/banner.jpg") center center no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+

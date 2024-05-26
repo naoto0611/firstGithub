@@ -1,0 +1,37 @@
+/* reset Margin & Padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.banner {
+  height: 500px;
+  background: url("./img/banner.jpg") center center no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.banner .about-sign-in {
+  display: flex;
+  justify-content: end;
+  block-size: fit-content;
+  align-items: center;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 20px 10px;
+  display: inline-block;
+  padding: 7px;
+  margin-right: 20px;
+  color: green;
+  text-transform: uppercase;
+}
+.banner .about-sign-in .about {
+  border: none;
+}
+.banner .about-sign-in .sign-in {
+  border: 3px solid green;
+  margin-right: 40px;
+}
